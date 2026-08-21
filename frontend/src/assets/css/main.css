@@ -1,0 +1,200 @@
+:root{
+    --primary:#198754;
+    --secondary:#0d6efd;
+    --light:#f8f9fa;
+    --dark:#212529;
+}
+
+body{
+    background:#f8f9fa;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+.hero{
+    background:linear-gradient(rgba(25,135,84,.8),rgba(25,135,84,.8)),
+    url("https://picsum.photos/1600/700");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    padding:120px 0;
+}
+
+.section-title{
+    font-size:36px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.section-subtitle{
+    color:#666;
+    margin-bottom:40px;
+}
+
+.shadow-card{
+    transition:.3s;
+    border:none;
+}
+
+.shadow-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.2);
+}
+
+.stat-box{
+    padding:40px;
+    background:white;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.stat-number{
+    font-size:40px;
+    font-weight:bold;
+    color:var(--primary);
+}
+
+.icon-circle{
+    width:70px;
+    height:70px;
+    background:var(--primary);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    font-size:30px;
+    margin:auto;
+}
+.cta-section{
+
+    background:linear-gradient(
+    rgba(25,135,84,.9),
+    rgba(25,135,84,.9)),
+    url("https://picsum.photos/1400/500");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.partner-card{
+
+    transition:.3s;
+
+}
+
+.partner-card:hover{
+
+    transform:scale(1.05);
+
+}
+.back-top{
+
+position:fixed;
+
+right:25px;
+
+bottom:25px;
+
+width:50px;
+
+height:50px;
+
+border-radius:50%;
+
+font-size:22px;
+
+z-index:9999;
+
+}
+/* ===========================
+        FOOTER
+=========================== */
+
+.footer{
+
+    background:#1f1f1f;
+
+}
+
+.footer-link{
+
+    color:#ddd;
+
+    text-decoration:none;
+
+    display:block;
+
+    margin-bottom:10px;
+
+    transition:.3s;
+
+}
+
+.footer-link:hover{
+
+    color:#20c997;
+
+    padding-left:6px;
+
+}
+
+.social-icon{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin-left:15px;
+
+    transition:.3s;
+
+}
+
+.social-icon:hover{
+
+    color:#20c997;
+
+}
+
+.footer input{
+
+    border-radius:8px;
+
+}
+
+.footer button{
+
+    border-radius:8px;
+
+}
+.service-card{
+
+    transition:.3s;
+
+    border:none;
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+
+}
+
+.volunteer-section{
+
+    background:linear-gradient(
+    rgba(13,110,253,.9),
+    rgba(13,110,253,.9)),
+    url("https://picsum.photos/1400/600");
+
+    background-size:cover;
+
+    background-position:center;
+
+}

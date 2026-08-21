@@ -1,0 +1,85 @@
+.dashboard-card{
+
+    border:none;
+
+    border-radius:18px;
+
+    min-height:120px;
+
+    color:#fff;
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.dashboard-title{
+
+    font-size:18px;
+
+    font-weight:500;
+
+    color:white;
+
+}
+
+.dashboard-value{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:white;
+
+}
+
+.dashboard-icon{
+
+    font-size:48px;
+
+    color:rgba(255,255,255,.95);
+
+}
+
+.bg-gradient-primary{
+
+    background:linear-gradient(135deg,#0d6efd,#4e73df);
+
+}
+
+.bg-gradient-success{
+
+    background:linear-gradient(135deg,#198754,#20c997);
+
+}
+
+.bg-gradient-warning{
+
+    background:linear-gradient(135deg,#ffc107,#fd7e14);
+
+}
+
+.bg-gradient-danger{
+
+    background:linear-gradient(135deg,#dc3545,#ff6b81);
+
+}
+
+.bg-gradient-info{
+
+    background:linear-gradient(135deg,#0dcaf0,#3abaf4);
+
+}
+.chart-box {
+    height: 350px;
+    position: relative;
+}
